@@ -31,52 +31,72 @@ int main()
 	}
 
 		
-			for(m;m<10000000000000;m++,a++,b++,c++,d++,e++,f++,g++,h++,i++,j++,k++)
+	for(m;m<10000000000000;m++,a++,b++,c++,d++,e++,f++,g++,h++,i++,j++,k++)
 			{
 
-				m = sqrt( ( (b-a)*(b-a)+(c-b)*(c-b)+(d-c)*(d-c)+(e-d)*(e-d)+(f-e)*(f-e)+(g-f)*(g-f)+(h-g)*(h-g)+(i-h)*(i-h)+(j-i)*(j-i)+(k-j)*(k-j)  ) ) / ( (a+b+c+d+e+f+g+h+i+j+k)*0.1110101);
-				cout << setprecision(80) <<"\t\tm3:\t" << m;
+	m = sqrt( ( (b-a)*(b-a)+(c-b)*(c-b)+(d-c)*(d-c)+(e-d)*(e-d)+(f-e)*(f-e)+(g-f)*(g-f)+(h-g)*(h-g)+(i-h)*(i-h)+(j-i)*(j-i)+(k-j)*(k-j)  ) ) / ( (a+b+c+d+e+f+g+h+i+j+k)*0.1110101);
+				
+		cout << setprecision(80) <<"\t\tm3:\t" << m;
 
 	if( m < 10.1010101010101110100 )
-	{		
-				for(a;a<10000;a++)
+	{
+		for(a;a<10000;a++)
+		{
+			cout << "\ta:\t" << a;
+			
+				for(b;b<10000;b++)
 				{
-					cout << "\ta:\t" << a;
-						for(b;b<10000;b++)
+					cout << "b:" << b;
+					
+						for(c;c<10000;c++)
 						{
-							cout << "b:" << b;
-								for(c;c<10000;c++)
+						
+							cout << "\tc:\t" << c;
+							
+								for(d;d<10000;d++)
 								{
-									cout << "\tc:\t" << c;
-										for(d;d<10000;d++)
+								
+									cout << "\td:\t" << d;
+									
+										for(e;e<10000;e++)
 										{
-											cout << "\td:\t" << d;
-												for(e;e<10000;e++)
+										
+											cout << "\te:\t" << e;
+											
+												for(f;f<10000;f++)
 												{
-													cout << "\te:\t" << e;
-														for(f;f<10000;f++)
+												
+													cout << "\tf:\t" << f;
+													
+														for(g;g<10000;g++)
 														{
-															cout << "\tf:\t" << f;
-																for(g;g<10000;g++)
+														
+															cout << "\tg:\t" << g;
+															
+																for(h;h<10000;h++)
 																{
-																	cout << "\tg:\t" << g;
-																						    for(h;h<10000;h++)
-																						    {
-																							    cout << "\th:\t" << h;
-																							    	for(i;i<10000;i++)
-				    {
-					cout << "\ti:\t" << i;
-			    			for(j;j<10000;j++)
-						{
-							cout << "\tj:\t" << j;
-								for(k;k<10000000000000;k++)
-								{
-									cout << "\tk:\t" << k;
-								}
-						}
-				    }
-																						    }
+																
+																	cout << "\th:\t" << h;
+																	
+																		for(i;i<10000;i++)
+																		{
+																		
+																			cout << "\ti:\t" << i;
+								    											
+																				for(j;j<10000;j++)
+																				{
+																				
+																					cout << "\tj:\t" << j;
+																						
+																						for(k;k<10000000000000;k++)
+																						{
+																						
+																							cout << "\tk:\t" << k;
+																						}
+																				}
+				    														}
 																}
+															}
 														}
 												}
 										}
